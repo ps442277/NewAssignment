@@ -2,9 +2,9 @@
 Get Product Information in Amazon website
 ## Overview
 The Main purpose of this project is to search for the required Product from the Amazon website and get the corresponding information in it.
-The search has been done based on Filtering the category option and search for the result and then choosing the any of the List from the search Result
+The search has been done based on Filtering the category option and search for the result on Search box and then choosing any of the List from the search Result
 ## Pre Requisities
-Following are the Pre-Requisities need to be installed in the Environment
+Following are the Pre-Requisities which needs to be installed in the Environment
 - Eclipse - Eclipse is an IDE for development Environment - [click here for download](https://www.eclipse.org/downloads/)
 - Java JDK - Java JDK is for configuring and accessing Java class - [click here for download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - Maven - Maven is a Build tool which can be download from eclipse marketplace
@@ -26,13 +26,13 @@ Following are the Pre-Requisities need to be installed in the Environment
   - Maven Compiler
   - Maven Surefire
 ## Design Description
-This project has been designed with the help of BDD framework with the help of Cucumber, The Design language is carried out through Java. please are the list of items that used in this project
+This project has been designed with the help of BDD framework in Cucumber, The Design language is carried out through Java. Here are the list of items that has been used in this project
   - Framework used - BDD with Cucumber and junit
   - Build Tool - Maven
 Here the implementation is done for two test scripts with same scenario and different Test data.
   - 1st Test data with valid Item number - Same scenario
   - 2nd Test data with invalid Item number - Same scenario
-For implementing this feature, i included Scenario Outline, which is used to execute multiple test with same scenario but different input parameter.
+For implementing this feature, i included Scenario Outline, which is used to execute multiple test for same scenario with different input parameter.
 ## Code level Description
 The Input parameter for this Project is carried out from Data table in Feature file and the Output has been send to Microsoft Excel document
   - Framework Components:
@@ -58,6 +58,6 @@ The user has to execute by using the pom.xml file under the Project directory.
 Right click on pom.xml file and choose Run as -> Maven Test or go to command prompt and navigate to project directory and enter mvn test.
 ## Reporting
 After the successful execution, the report will be generated in Interative and more readable format.
-In Cucumber we have default reporting pluings, in that i implemented the Report type as "Pretty" along with HTML format.
+In Cucumber we have default reporting pluings, here i implemented the Report type as "Pretty" along with HTML format.
 ## Author
 Praveen Selvaraj - [About me](https://github.com/ps442277)
