@@ -59,7 +59,8 @@ Right click on pom.xml file and choose Run as -> Maven Test or go to command pro
 ## Reporting
 After the successful execution, the report will be generated in Interative and more readable format.
 In Cucumber we have default reporting pluings, here i implemented the Report type as "Pretty" along with HTML format.
-![Eclipse Cucumber report]()
-![HTML Report]()
+
+![Cucumber JUnit report](https://github.com/ps442277/NewAssignment/blob/master/Sample%20Report/Junit%20Report.PNG)
+![Pretty HTML Report](https://github.com/ps442277/NewAssignment/blob/master/Sample%20Report/Pretty%20HTML%20report.PNG)
 ## Author
 Praveen Selvaraj - [About me](https://github.com/ps442277)
