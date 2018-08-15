@@ -8,7 +8,7 @@ Following are the Pre-Requisities which needs to be installed in the Environment
 - Eclipse - Eclipse is an IDE for development Environment - [click here for download](https://www.eclipse.org/downloads/)
 - Java JDK - Java JDK is for configuring and accessing Java class - [click here for download](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - Maven - Maven is a Build tool which can be download from eclipse marketplace
-- ChromeDriver - Chromedriver is needed to work with Chrome browser for testing - [Click here to download](https://sites.google.com/a/chromium.org/chromedriver/)
+- ChromeDriver - Chromedriver is needed to work with Chrome browser for testing - [click here to download](https://sites.google.com/a/chromium.org/chromedriver/)
 - Dependencies:
   - Selenium Jar file <version> 2.45.0 </version>
   - Junit Jar file <version> 4.12 </version>
@@ -59,8 +59,9 @@ Right click on pom.xml file and choose Run as -> Maven Test or go to command pro
 ## Reporting
 After the successful execution, the report will be generated in Interative and more readable format.
 In Cucumber we have default reporting pluings, here i implemented the Report type as "Pretty" along with HTML format.
-
+##### Cucumber JUnit Report
 ![Cucumber JUnit report](https://github.com/ps442277/NewAssignment/blob/master/Sample%20Report/Junit%20Report.PNG)
+##### Pretty HTML Report
 ![Pretty HTML Report](https://github.com/ps442277/NewAssignment/blob/master/Sample%20Report/Pretty%20HTML%20report.PNG)
 ## Author
 Praveen Selvaraj - [About me](https://github.com/ps442277)
